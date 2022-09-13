@@ -1,0 +1,46 @@
+body {
+    background-color: #F2D388;
+    max-width: 550px;
+    padding: 0px 15px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    font: normal 1em Arial;
+}
+
+header {
+ text-align: center;
+ color: white;
+}
+
+section {
+    background-color:white;
+    border-radius: 10px;
+    padding: 25px 15px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.283);
+}
+
+#inputs {
+    display: flex;
+    flex-direction: column;
+    font-size: 1em;
+}
+
+#inputs > label {
+    margin-bottom: 1em;
+}
+
+#numSelect {
+    width: 150px;
+}
+
+#btn {
+    width: 70px;
+    margin-top: 3px;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    font-style: italic;
+}
